@@ -1,5 +1,4 @@
-export function levelHealth(level) {
-
+export default function levelHealth(level) {
 	if (level.health > 50) {
 		return 'healthy';
 	}
@@ -7,6 +6,5 @@ export function levelHealth(level) {
 		return "critical";
 	} else {
 		return 'wounded';
-
 	}
 }
